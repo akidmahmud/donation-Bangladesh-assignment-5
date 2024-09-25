@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar bg-[rgb(249,247,243)] w-full shadow-md">
+        <div class="w-4/5 mx-auto flex justify-between items-center">
+          <!-- Navbar -->
+          <div class="navbar-start">
+            <a
+              class="btn btn-primary bg-[rgb(180,244,97)] text-xl text-black border-none"
+              id="btn-blog"
+              href="blog.html"
+            >
+              Blog
+            </a>
+          </div>
+          <div class="navbar-center flex-grow text-center hidden md:block">
+            <h2 class="text-3xl font-bold">Donate Bangladesh</h2>
+          </div>
+          <div class="navbar-end flex space-x-2">
+            <img src="Asset/coin.png" alt="" />
+            <h3 id="my-balance" class="text-xl">5500</h3>
+            <h3 class="text-xl">BDT</h3>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script src="Js/donation.js"></script>
+    <script src="Js/ToggleBtn.js"></script>
+    <script src="Js/utilities.js"></script>
+  </body>
+</html>
